@@ -20,32 +20,44 @@
 //     console.log("We can all talk")
 // }
 
-//Exercise 2.1 and 2.2
-let students = ["sofia", "elizabeth", "sasha", "samantha", "abigail", "lorena", "ayesha", "adeyo", "emil"];
+// //Exercise 2.0, 2.1 and 2.2 - Functions
 
-let count = 0;
 
-for(let i = 0; i < students.length; i++){
-    count++;
-}
-console.log(count);
-//Works :)
+// function addTwoNumbers(num1, num2){
+// console.log(num1 + num2);
 
-//Exercise 2.3
-let classSize = 0;
-let maxClassSize = 7;
+// };
+// addTwoNumbers(2938,2);
+// //Works
 
-let classList = [];
 
-while(classList.length <= maxClassSize){
-    //Get random index value
-    let randomIndex = Math.floor(Math.random() *students.length);
-//Get random item
-let item = students[randomIndex];
-classList.push(item);
-}
-console.log(classList);
-//It works!!
+
+// //Exercise 2.1 and 2.2
+// let students = ["sofia", "elizabeth", "sasha", "samantha", "abigail", "lorena", "ayesha", "adeyo", "emil"];
+
+// let count = 0;
+
+// for(let i = 0; i < students.length; i++){
+//     count++;
+// }
+// console.log(count);
+// //Works :)
+
+// //Exercise 2.3
+// let classSize = 0;
+// let maxClassSize = 7;
+
+// let classList = [];
+
+// while(classList.length <= maxClassSize){
+//     //Get random index value
+//     let randomIndex = Math.floor(Math.random() *students.length);
+// //Get random item
+// let item = students[randomIndex];
+// classList.push(item);
+// }
+// console.log(classList);
+// //It works!!
 
 
 
